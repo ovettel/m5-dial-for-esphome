@@ -6,6 +6,8 @@ substitutions:
   friendly_name: "M5 Dial"
   dashboard_package_import_url: github://ovettel/m5-dial-for-esphome/shys-m5-dial.yaml@main
   external_component_url: https://github.com/ovettel/m5-dial-for-esphome/
+  api_encryption_key: ""
+  ota_password: ""
 
 esphome:
   name: ${name}
